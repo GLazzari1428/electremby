@@ -1,0 +1,39 @@
+{
+  "name": "electremby",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": {
+    "name": "glazzari",
+    "email": "gustavotlazzari@gmail.com"
+  },
+  "description": "A custom Electron client for Emby",
+  "devDependencies": {
+    "electron": "31.0.2",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "org.electremby.glazzari.client",
+    "productName": "Electremby",
+    "files": [
+      "main.js",
+      "prompt-style.css",
+      "node_modules/**/*"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "AudioVideo;Network;"
+    }
+  },
+  "dependencies": {
+    "@jarboer/electron-prompt": "^2.3.7",
+    "electron-store": "^10.0.1"
+  }
+}

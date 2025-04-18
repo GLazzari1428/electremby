@@ -1,0 +1,70 @@
+body {
+  background-color: #2e2e2e;
+  color: #dcdcdc; /* <<< CHANGED: Light gray text */
+  font-family: sans-serif;
+}
+
+label {
+  color: #dcdcdc; /* <<< CHANGED: Light gray label text */
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="url"] {
+  background-color: #424242; /* <<< CHANGED: Dark input background */
+  color: #dcdcdc;           /* <<< CHANGED: Light gray text in input */
+  border: 1px solid #616161;
+  padding: 8px;
+  width: calc(100% - 18px);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="url"]:focus {
+  outline: none;
+  border-color: #757575;
+  box-shadow: 0 0 3px rgba(180, 180, 180, 0.3);
+}
+
+.electron-prompt-buttons {
+  margin-top: 15px;
+  text-align: right;
+}
+
+button {
+  background-color: #5a5a5a;
+  color: #ffffff;
+  border: 1px solid #616161;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #6a6a6a;
+  border-color: #757575;
+}
+
+button.electron-prompt-button-ok {
+  background-color: #9B4F96;
+  color: #ffffff;
+  border-color: #8a4585;
+}
+
+button.electron-prompt-button-ok:hover {
+   background-color: #8a4585;
+   border-color: #7a3b75;
+}
+
+button.electron-prompt-button-cancel {
+
+}
+
+button.electron-prompt-button-cancel:hover {
+
+}
