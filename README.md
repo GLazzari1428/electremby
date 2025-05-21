@@ -3,7 +3,6 @@
 A simple, unofficial desktop client for Emby media server, built with Electron. It wraps the standard Emby web UI, providing a basic desktop experience without requiring an Emby Premiere subscription.
 
 ![Screenshot Placeholder](https://via.placeholder.com/600x400.png?text=Electremby+Screenshot+Here)
-*(Suggestion: Replace the placeholder above with an actual screenshot of the app running!)*
 
 ## Why?
 
@@ -72,5 +71,3 @@ To create standalone application packages (`.AppImage`, `.deb`):
 ## License 📄
 
 This project is licensed under the [MIT License](LICENSE).
-
-*(Suggestion: Create a file named `LICENSE` in the root directory and paste the standard MIT License text into it.)*
